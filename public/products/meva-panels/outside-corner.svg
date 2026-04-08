@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f5f5f4"/>
+  <rect x="40" y="40" width="320" height="320" rx="16" fill="#e7e5e4" stroke="#d6d3d1" stroke-width="2"/>
+  <!-- Outside corner: L-shape viewed from top -->
+  <g transform="translate(80,80)">
+    <!-- Vertical arm -->
+    <rect x="0" y="0" width="60" height="240" rx="4" fill="#3b82f6" opacity="0.85"/>
+    <rect x="4" y="4" width="52" height="232" rx="2" fill="#60a5fa" opacity="0.5"/>
+    <!-- Horizontal arm -->
+    <rect x="0" y="180" width="240" height="60" rx="4" fill="#3b82f6" opacity="0.85"/>
+    <rect x="4" y="184" width="232" height="52" rx="2" fill="#60a5fa" opacity="0.5"/>
+    <!-- Connection dots -->
+    <circle cx="30" cy="20" r="6" fill="#1d4ed8"/>
+    <circle cx="30" cy="60" r="6" fill="#1d4ed8"/>
+    <circle cx="30" cy="100" r="6" fill="#1d4ed8"/>
+    <circle cx="30" cy="140" r="6" fill="#1d4ed8"/>
+    <circle cx="100" cy="210" r="6" fill="#1d4ed8"/>
+    <circle cx="140" cy="210" r="6" fill="#1d4ed8"/>
+    <circle cx="180" cy="210" r="6" fill="#1d4ed8"/>
+    <circle cx="220" cy="210" r="6" fill="#1d4ed8"/>
+    <!-- 90° angle indicator -->
+    <path d="M60,180 L60,155 L85,155" fill="none" stroke="#1d4ed8" stroke-width="2.5"/>
+  </g>
+  <text x="200" y="365" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="600" fill="#57534e">Outside Corner</text>
+</svg>

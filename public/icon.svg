@@ -1,0 +1,12 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background -->
+  <rect width="512" height="512" fill="#09090b"/>
+  
+  <!-- White "A" letter with modern styling -->
+  <g transform="translate(256, 256)">
+    <!-- Letter A -->
+    <path d="M -80 120 L 0 -120 L 80 120 M -50 40 L 50 40" 
+          stroke="white" stroke-width="28" fill="none" 
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

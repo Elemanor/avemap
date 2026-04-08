@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f5f5f4"/>
+  <rect x="40" y="40" width="320" height="320" rx="16" fill="#e7e5e4" stroke="#d6d3d1" stroke-width="2"/>
+  <!-- Generic accessory: wrench/connector symbol -->
+  <g transform="translate(200,185)">
+    <!-- Bolt head (hexagonal) -->
+    <polygon points="0,-50 43,-25 43,25 0,50 -43,25 -43,-25" fill="#ef4444" opacity="0.15" stroke="#ef4444" stroke-width="2.5"/>
+    <polygon points="0,-35 30,-17.5 30,17.5 0,35 -30,17.5 -30,-17.5" fill="#fecaca" opacity="0.6" stroke="#ef4444" stroke-width="1.5"/>
+    <!-- Center circle -->
+    <circle cx="0" cy="0" r="12" fill="#ef4444" opacity="0.8"/>
+    <circle cx="0" cy="0" r="6" fill="#fecaca"/>
+    <!-- Connection lines radiating outward -->
+    <line x1="0" y1="-55" x2="0" y2="-75" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="48" y1="-28" x2="65" y2="-38" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="48" y1="28" x2="65" y2="38" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="55" x2="0" y2="75" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-48" y1="28" x2="-65" y2="38" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-48" y1="-28" x2="-65" y2="-38" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Small dots at endpoints -->
+    <circle cx="0" cy="-75" r="4" fill="#dc2626"/>
+    <circle cx="65" cy="-38" r="4" fill="#dc2626"/>
+    <circle cx="65" cy="38" r="4" fill="#dc2626"/>
+    <circle cx="0" cy="75" r="4" fill="#dc2626"/>
+    <circle cx="-65" cy="38" r="4" fill="#dc2626"/>
+    <circle cx="-65" cy="-38" r="4" fill="#dc2626"/>
+  </g>
+  <text x="200" y="365" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="600" fill="#57534e">Connector / Accessory</text>
+</svg>
